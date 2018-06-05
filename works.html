@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link type="text/css" href="css/materialize.min.css" rel="stylesheet">
+    <link type="text/css" href="css/style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Портфолио</title>
+</head>
+
+<body>
+   <nav class="grey darken-2">
+    <div class="container nav-wrapper ">
+      <a href="index.html" class="brand-logo">Портфолио</a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li><a href="works.html">Работы</a></li>
+        <li><a href="about.html">Обо мне</a></li>
+      </ul>
+    </div>
+  </nav>
+    <div class=" row container">
+            <div>
+                <h3 class="left-align black-text">UnityGame "Attempt"</h3>
+                 <a class="waves-effect waves-light btn" href="https://github.com/VaDe17/Unity-Mytona/tree/master/Assets"><i class="material-icons left">cloud</i>Код на GitHub</a>
+                <?-- Attepmt medanddown --?>
+           
+           
+                      <?-- Attepmt large --?>
+                      <div class="row">
+                               <iframe height="300px" src="https://www.youtube.com/embed/dUpH8HKroAU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen class="m6 col hide-on-med-and-down"></iframe>   
+                <iframe height="300px" src="https://www.youtube.com/embed/dUpH8HKroAU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen class="m6 col hide-on-med-and-down"></iframe>  
+              
+                      </div>
+           
+              
+               
+                
+            </div>
+            <div>
+                <h3 class="left-align black-text">PhaserGame "Rogue"</h3>
+
+                     <a href="myGame/index.html" class="btn">Сыграть в мою игру</a>
+               
+                    <div>
+                         <img class="s12 col hide-on-large-only" src="img/startG.png">
+                <img class="s12 col hide-on-large-only" src="img/Game.png">
+                    </div>
+                <?-- Rogue medanddown --?>
+               
+                <div>
+                       <img class="s6 col hide-on-med-and-down" src="img/startG.png">
+                <img class="s6 col hide-on-med-and-down" src="img/Game.png">
+                </div>
+                <?-- Rogue large --?>
+             
+               
+               
+            </div> 
+        </div>
+    <footer class="page-footer grey darken-3">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5 class="white-text">Контактные Данные</h5>
+                    <p class="grey-text text-lighten-4">WhatsApp : +79681571574</p>
+                    <p class="grey-text text-lighten-4">eMail : sasha.potapov.2003@bk.ru</p>
+                </div>
+                <div class="col l4 offset-l2 s12 hide-on-med-and-down">
+                    <h5 class="white-text">Links</h5>
+                    <ul>
+                        <li><a class="grey-text text-lighten-3" href="index.html">Главная</a></li>
+                        <li><a class="grey-text text-lighten-3" href="about.html">Обо мне</a></li>
+                        <li><a class="grey-text text-lighten-3" href="works.html">Работы</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright grey darken-4 ">
+            <a class="grey-text text-lighten-3 right hide-on-large-only offset-s1" href="about.html">Обо мне</a>
+            <a class="grey-text text-lighten-3 right hide-on-large-only offset-s1" href="works.html">Работы</a>
+        </div>
+    </footer>
+
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('.slider').slider();
+        });
+
+        $(document).ready(function() {
+            $('.parallax').parallax();
+        })
+
+        $('.tap-target').tapTarget('open');
+        $('.tap-target').tapTarget('close');
+
+        $(document).ready(function() {
+            $('.modal').modal();
+        });
+    </script>
+</body>
+</html>
